@@ -1,0 +1,35 @@
+/* Basic Styling */
+body {
+  font-family:Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('images/hero-bg.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(134, 60, 128);
+  background-color: rgb(62, 113, 133);
+}
+
+/* Headings */
+h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Project Cards */
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
